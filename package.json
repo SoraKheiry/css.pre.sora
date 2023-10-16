@@ -1,0 +1,20 @@
+{
+  "name": "assign3-css-precomiler",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "goto": "lite-server --baseDir=\"public\"",
+    "Sora": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run Sora\" \"npm run goto\""
+  },
+  "keywords": [],
+  "author": "SoraKheiry",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "currently": "^0.0.8",
+    "lite-server": "^2.6.1",
+    "sass": "^1.69.2"
+  }
+}
